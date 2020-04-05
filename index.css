@@ -1,10 +1,129 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;	
+	font-family: san-serif;	
 }
 
-ul{
-	float: right;
-	list-style-type: none;
+hr {
+	width: 95%;
+}
+header { 
+	background-color: #42455a;
+}
+.main {
+	width: 100%;
+	height: 700px;
+	
+}
+
+.container {
+	float:left;
+	width: 100%;
+	height: 92%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.container-left {
+	float: left;
+	width: 72%;
+	height: 100%;
+}
+
+.container-right {
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin-top: 170px;
+}
+
+
+.head {
+	margin-top: 50px;
+	text-align:center;	
+}
+
+.head h1 {
+	margin-left: 5px;
+	color: #10b1b1;
+}
+
+.head p {
+	color: #fff;
+}
+
+.about {
+	margin-left: 5px;
+	margin-top: 25px;
+}
+
+.about h1 {
+	margin-left: 5px;
+	color: #fff;
+}
+
+.about p {
+	margin-top: 10px;
+	color: #b2b1b1;
+}
+
+.experiance {
+	margin-left: 5px;
+	margin-top: 25px;
+}
+.experiance h1 {
+	margin-left: 5px;
+	color: #fff;
+}
+
+.exp01 {
+	float: left;
+	width: 47%;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+.exp01 p {
+	margin-top: 10px;
+	color: #b2b1b1;
+}
+.exp01 span{
+	margin-right: 5px;
+	color: #fff;
+}
+.exp01 ul {
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.exp01 li {
+	color: #b2b1b1;
+}
+.side-bar{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.side-bar h3{
+	margin-left: 5px;
+	color: #fff;
+}
+.side-bar p {
+	margin-top: 10px;
+	margin-right: 5px;
+	color: #b2b1b1;
+}
+
+.footer {
+	float:left
+	width: 100%;
+	height: 8%;
+	background-color: #000;
+	main:0;
+	
+}
+
+.footer h4 {
+	color: #b2b1b1;
+	text-align: center;
+	margin-top: 2px;
+	
 }
